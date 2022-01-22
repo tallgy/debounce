@@ -1,0 +1,16 @@
+{
+  "name": "tallgy-debounce",
+  "version": "0.0.1",
+  "description": "防抖节流函数 debounce throttle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "function",
+    "debounce",
+    "throttle"
+  ],
+  "author": "tallgy",
+  "license": "MIT"
+}
