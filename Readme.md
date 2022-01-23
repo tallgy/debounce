@@ -2,6 +2,14 @@
 
 
 
+url：
+
+[GitHub](https://github.com/tallgy/debounce.git)
+
+[Gitee](https://gitee.com/tallgy/debounce.git)
+
+
+
 防抖函数，**debounce**
 
 * 清除定时器 **clear**
@@ -18,7 +26,7 @@
 
 
 
-# 安装
+## 安装
 
 ```
 npm install tallgy-debounce
@@ -26,9 +34,9 @@ npm install tallgy-debounce
 
 
 
-# 案例 test
+## 案例 test
 
-## 核心函数
+### 核心函数
 
 ```javascript
 var debounce = require('tallgy-debounce');
@@ -68,7 +76,7 @@ fn()
 
 
 
-## 清除定时器
+### 清除定时器
 
 ```javascript
 fn()
@@ -77,7 +85,7 @@ fn.clear()
 
 
 
-## 立即执行
+### 立即执行
 
 ```javascript
 fn()
@@ -88,7 +96,7 @@ fn.executeImmediately()
 
 
 
-## 刷新
+### 刷新
 
 ​	携带参数，true代表马上执行后刷新，false就是不执行直接刷新
 
@@ -103,7 +111,7 @@ fn.flush(false)
 
 
 
-## 修改this指向重心
+### 修改this指向重心
 
 ​	记住，这个是修改重心，并不是修改指向。
 
@@ -125,7 +133,7 @@ fn.toggleIsModifyContext(true)
 
 
 
-## this 指向和vue的methods
+### this 指向和vue的methods
 
 vue的methods
 
@@ -141,7 +149,7 @@ methods: {
 
 
 
-## 修改this
+### 修改this
 
 ​	不带参数就是初始化。
 
@@ -151,9 +159,14 @@ fn.modifyContext(context)
 
 
 
-## 初始化this
+### 初始化this
 
 ```
 fn.initContext
 ```
 
+
+
+## License
+
+MIT

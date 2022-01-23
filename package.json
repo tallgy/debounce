@@ -1,8 +1,12 @@
 {
   "name": "tallgy-debounce",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": "https://gitee.com/tallgy/debounce.git",
+  "repository": "https://github.com/tallgy/debounce.git",
   "description": "防抖节流函数 debounce throttle",
   "main": "index.js",
+  "homepage": "https://gitee.com/tallgy/debounce#debounce",
+  "homepage": "https://github.com/tallgy/debounce#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
